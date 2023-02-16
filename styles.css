@@ -121,32 +121,53 @@ footer {
     background: #464547;
     padding: 0.5% 7%;
     color: white;
+    display: flex;
+}
+
+footer > p:nth-child(1) {
+
+    letter-spacing: 0.2em;
+    font-size: 18px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 1%;
+    padding-top: 1%;
+    width: 20%;
 }
 
 .contact-info {
+
     color: rgba(255, 255, 255, 0.4);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    margin-left: 0;
+    width: 60%;
+
 }
 
-.contact-info > a {
+footer > p:last-child {
+
+    color: rgba(255, 255, 255, 0.4);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 0;
+    width: 20%;
+    display: inline-block;
+    align-self: flex-end;
+
+}
+
+.contact-info a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.4);
 }
 
-.contact-info > i {
+.contact-info > p > i {
     font-style: normal;
-}
-
-footer > p:nth-child(1) {
-    letter-spacing: 0.2em;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    padding-left: 1%;
-    margin-bottom: 0;
 }
 
 .middle-page > button {
